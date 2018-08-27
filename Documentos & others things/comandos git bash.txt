@@ -1,0 +1,29 @@
+-- COMANDOS GIT BASH -- 
+
+git status
+
+git commit
+
+*Write and Quit
+:wq
+
+*Adiciona um repositório remoto
+git remote add origin (url)
+
+*Desabilitar SSL (Senai)
+git config --global http.sslVerify "false"
+
+*Criação do repositório local
+git init
+
+*Adiciona os arquivos para o STAGE
+git add --all
+
+*Comitar com comentário
+git commit -m "comentário"
+
+*Enviar para o repositório remoto
+git push origin master
+
+*Resgatar de um repositório remoto
+git pull origin master
